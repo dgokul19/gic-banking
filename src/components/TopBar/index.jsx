@@ -20,7 +20,7 @@ const TopBarComponent = () => {
                     <li><i className="fa fa-envelope"></i></li>
                     <li><i className="fa fa-search"></i></li>
                 </ul>
-                <button className={classes.logoutBtn}><i className="fa fa-sign-out"></i>Proceed to Logout</button>
+                <button className={classes.logoutBtn}><i className="fa fa-info-circle"></i>Get Help</button>
             </div>
         </div>
     );
