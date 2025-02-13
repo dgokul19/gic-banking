@@ -7,13 +7,14 @@ import HomeContent from "./HomeContent/";
 import DepositComponent from "./Deposit/";
 import WithdrawComponent from "./Withdraw/";
 import PrintStatement from "./PrintStatement";
+import QuitContent from "./QuitComponent";
 import FooterComponent from "./Footer/";
 
 // Utils
 import { USER_DETAILS, NAV_KEYS } from "../utils/constants";
+
 // CSS
 import classes from "../styles/index.module.scss";
-import QuitContent from "./QuitComponent";
 
 
 const Dashboard = () => {

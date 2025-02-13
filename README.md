@@ -9,6 +9,9 @@ For Demo, Please visit the below link
 
 ```bash
   https://portfolio-gic-banking.vercel.app
+
+  Username : admin 
+  Password : admin
 ```
 
 

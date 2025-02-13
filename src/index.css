@@ -13,7 +13,8 @@
 
   /* Color Specification */
   --primary-color : #071d49;
-  --secondary-color : #ede7f6;
+  --secondary-color : linear-gradient(135deg, rgb(94, 231, 223) 0%, rgb(180, 144, 202) 100%);
+  --tertiary-color : #ede7f6;
   --bg-grey : #fbfbfb;
   --white : #fff;
   --black : #2b2b2b;

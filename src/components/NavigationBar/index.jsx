@@ -24,7 +24,7 @@ const NavigationComponent = ({ user, updateContent, activeKey, updateActiveKey }
             </ul>
 
             <div className={classes.accountBalance} id="accountBalance">
-                Account Balance is: ${(user?.balance || 0).toFixed(2)}
+                Account Balance is :  <strong> ${(user?.balance || 0).toFixed(2)}</strong>
             </div>
         </div>
     );

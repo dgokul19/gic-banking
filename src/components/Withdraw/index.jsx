@@ -23,9 +23,9 @@ const WithdrawComponent = ({ activeKey, setActiveKey, user, updateDetails }) => 
             return;
         }
         let currentDate = new Date();
-        let userBalance = user.balance - Number(Number(withdraw).toFixed());
+        let userBalance = user.balance - parseFloat(parseFloat(withdraw).toFixed());
 
-        if((user.balance - Number(withdraw)) < 0) {
+        if((user.balance - parseFloat(withdraw)) < 0) {
             alert(`Insufficient funds..`);
             return;
         } else {
