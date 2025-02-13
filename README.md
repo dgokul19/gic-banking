@@ -1,7 +1,7 @@
 
 # Simple Banking App
 
-A Simple Banking application with functonalities like  Deposit/Withdraw/Print Statement.
+A Simple Banking application with functionalities included like Deposit/Withdraw/Print Statement.
 
 ## Demo
 
