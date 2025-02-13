@@ -16,8 +16,8 @@ const PrintStatement = ({ user }) => {
                 return (
                     <tr key={idx.toString()}>
                         <td>{renderDateString(txn.date)}</td>
-                        <td style={{color : `${txn.type === 'WITHDRAW' ? 'red' : 'green'}`}}>{txn.type === 'WITHDRAW' ? '-' : null }{txn.amount}</td>
-                        <td>{txn.balance}</td>
+                        <td style={{color : `${txn.type === 'WITHDRAW' ? 'red' : 'green'}`}}>{txn.type === 'WITHDRAW' ? '-' : null }{parseFloat(txn.amount).toFixed(2)}</td>
+                        <td>{parseFloat(txn.balance).toFixed(2)}</td>
                     </tr>
                 )
             })

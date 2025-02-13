@@ -22,7 +22,7 @@ const DepositComponent = ({ activeKey, setActiveKey, user, updateDetails }) => {
             alert(`Please enter a valid deposit amount !!`);
         }
         let currentDate = new Date();
-        let userBalance = user.balance += Number(Number(deposit).toFixed())
+        let userBalance = user.balance += parseFloat(parseFloat(deposit).toFixed())
 
         let newTxn = { date: currentDate, amount: deposit, type: `DEPOSIT`, balance: userBalance };
         updateDetails(prevState => {

@@ -7,6 +7,7 @@
   height: 100vh;
   margin: 0 auto;
   box-sizing: border-box;
-  background-image: url('./assets/light-purple-blurred-backdrop-vector.jpg');
+  /* background-image: url('./assets/light-purple-blurred-backdrop-vector.jpg'); */
+  background: linear-gradient(135deg, rgb(227, 253, 245) 0%, rgb(255, 230, 250) 100%);
   background-size: 100%;
 }
