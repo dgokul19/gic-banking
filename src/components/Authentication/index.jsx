@@ -46,7 +46,7 @@ const Authentication = ({ successCallback }) => {
                     <div className={classes.authContainer}>
                         <form className={classes.formGroup}>
                             <h2>Create an Account !!</h2>
-
+                            <span>( Username : admin; Password : admin ) </span>
                             <div className={classes.formRow}>
                                 <label>Username</label>
                                 <input name={`userName`} placeholder={`Enter an username..`} value={form.userName} onChange={handleChange}/>
