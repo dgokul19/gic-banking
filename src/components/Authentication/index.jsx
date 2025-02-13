@@ -32,6 +32,9 @@ const Authentication = ({ successCallback }) => {
         if(userName === 'admin' && password === 'admin') {
             sessionStorage.setItem(`app-banking-session`, `app-banking-session-12345`);
             window.location.reload();
+        } else {
+            alert(`Invalid username or password !!`);
+            return;
         }
     };
 
@@ -51,7 +54,7 @@ const Authentication = ({ successCallback }) => {
 
                             <div className={classes.formRow}>
                                 <label>Password</label>
-                                <input name={`password`} placeholder={`Enter an password..`} value={form.password} onChange={handleChange}/>
+                                <input type={`password`} name={`password`} placeholder={`Enter an password..`} value={form.password} onChange={handleChange}/>
                             </div>
                             <div className={classes.btnProceed} onClick={handleSubmit}>
                                  Proceed
